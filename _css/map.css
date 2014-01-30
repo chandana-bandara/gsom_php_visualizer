@@ -1,0 +1,92 @@
+#nodeItemShowHover{
+	height:100px;
+}
+
+.nodeItems {
+	display:none;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+.hidden {
+	display:none !important;
+}
+
+#mapUI {
+	display:inline-block;
+}
+
+#mapContainer {
+	text-align:center;
+	vertical-align:middle;
+}
+
+.mapBlockNoItems{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	border:1px solid transparent;
+	font-size:20px;
+	margin:0px;
+	padding:0px;
+	color:black;
+	margin-right:4px;
+}
+.mapBlock{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	border:1px solid black;
+	font-size:20px;
+	margin:0px;
+	padding:0px;
+	color:white;
+	cursor:pointer;
+	
+}
+
+.mapBlockEmpty{
+	width:50px;
+	height:50px;
+	display:inline-block;
+	border:1px solid white;
+	font-size:20px;
+	margin:0px;
+	padding:0px;
+	color:white;
+}
+
+#nodeInformer {
+	border:1px solid black;
+	background:white;
+	color:black;
+	min-height:100px;
+	width:200px;
+}
+
+canvas {
+	position:relative !important;
+}
+
+.bt-content {
+	text-align:left !important;
+}
+.closeToolTip {
+	float:right;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+ul li{
+	list-style-type:none;
+}
+
+fieldset {
+	padding:0px;
+}
+
+ul {
+	margin-left:0px;
+	padding-left:1px;
+}
